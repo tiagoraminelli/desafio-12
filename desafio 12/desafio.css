@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+
+   
+    font-size: 20px;
+}
+header{
+    width: 100%;
+    height: 800px;
+    background-image: url("/desafio.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.placa{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top:100px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding-top: 20px;
+}
+h1{
+    font-size: 45px;
+    color: #FFF;
+    margin: 25px o auto;
+  
+}
+
+.material-symbols-outlined {
+    font-size: 30px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.medio{
+    width: 100%;
+    height: 800px;
+    background-image: url("/fondo.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.texto{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top:100px;
+    background-color: rgba(0, 0, 0, 0.4);
+    }
+.otro{
+    font-size: 42px;
+    color: #fff;
+    margin: 40px auto;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 5px 5px 20px black;
+}
+nav{
+    width: 100%;
+    background-color: #fa9191;
+    color: #fff;
+    top: 0;
+    position: fixed;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    padding: 5px;
+}
+nav ul li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: #eb6383;
+}
+section{
+    padding-top: 15px;
+    width: 95%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 60px;
+}
+p{
+    margin: 16px 0;
+    line-height: 150%;
+}
+.formulario{
+    position: relative;
+    bottom: 30px;
+    font-size: 28px;    
+    text-align: center;
+    background-color:#FFF2F2;
+    border-radius: 50px;
+    padding-top: 10px;
+    font-family: 'Square Peg', cursive;
+
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #FAD4D4;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+.formulario{
+    position: relative;
+    bottom: 30px;
+    font-size: 28px;    
+    text-align: center;
+    background-color:#FFF2F2;
+    border-radius: 50px;
+    padding-top: 10px;
+    font-family: 'Square Peg', cursive;
+}
